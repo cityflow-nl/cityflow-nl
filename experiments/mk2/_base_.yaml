@@ -1,0 +1,2 @@
+TRAIN_DATA:
+  JSON_PATH: "data/train-tracks_nlpaug_with_target_id.json"

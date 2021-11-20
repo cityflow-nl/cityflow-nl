@@ -1,0 +1,17 @@
+_BASE_: "sc_default.yaml"
+TRAIN:
+  CHECKPOINT_FREQ: 20
+
+EXPR_NAME: "EVAL_TEST"
+TYPE: "EVAL"
+
+MODEL:
+  USE_COSINE_SIMILARITY: True
+
+# TEST_DATA:
+#   JSON_PATH: "data/val-tracks.json"
+#   QUERIES: "data/val-queries.json"
+#   GT_PATH: "data/val-gt.json"
+
+EVAL:
+  RESTORE_FROM: "experiments/vrn_mk2/MK2_CONTINUE_11_13.11:11:13.116534/checkpoints/CKPT-E2-S13000.pth"

@@ -1,0 +1,9 @@
+_BASE_: "sc_default.yaml"
+EXPR_NAME: "EVAL_VRNMK2"
+TYPE: "EVAL"
+
+MODEL:
+  USE_COSINE_SIMILARITY: True
+  
+EVAL:
+  RESTORE_FROM: ""

@@ -1,0 +1,4 @@
+_BASE_: "sc_default.yaml"
+TRAIN:
+  CHECKPOINT_FREQ: 20
+  

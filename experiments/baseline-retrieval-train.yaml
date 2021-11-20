@@ -1,0 +1,10 @@
+EXPR_NAME: "BASELINE-RETRIEVAL-TRAIN"
+TYPE: "TRAIN"
+
+LOG_DIR: "experiments/"
+DATA:
+  CITYFLOW_PATH: "data/cityflow/MTMC"
+
+MODEL:
+  BERT_CHECKPOINT: "checkpoints/bert-base-uncased/"
+  RESNET_CHECKPOINT: "checkpoints/resnet50-19c8e357.pth"

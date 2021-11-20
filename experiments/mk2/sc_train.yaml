@@ -1,0 +1,7 @@
+_BASE_: "sc_default.yaml"
+EXPR_NAME: "MK2_CONTINUE"
+MODEL:
+  USE_COSINE_SIMILARITY: True
+  
+TRAIN:
+  RESTORE_FROM: "experiments/vrn_mk2/MK2_CONTINUE_11_12.16:21:00.688263/checkpoints/CKPT-E2-S12000.pth"

@@ -1,0 +1,5 @@
+_BASE_: "sc_default.yaml"
+EXPR_NAME: "VRNMK2_TRAIN_EXP_DIST"
+MODEL:
+  USE_COSINE_SIMILARITY: False
+  

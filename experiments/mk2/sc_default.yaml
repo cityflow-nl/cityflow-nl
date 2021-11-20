@@ -1,0 +1,5 @@
+_BASE_: "_base_.yaml"
+LOG_DIR: "experiments/vrn_mk2"
+TRAIN_DATA:
+  POSITIVE_THRESHOLD: 0.7
+  FRAME_PER_TRACK: 32
