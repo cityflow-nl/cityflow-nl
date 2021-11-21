@@ -3,7 +3,7 @@
 This dataset and codes are curated for the CVPR 2022 Submission 775.
 
 ## Contents in this repository
-`data/extract_vdo_frms.py` is a Python script that is used to extract frames
+`comm/extract_vdo_frms.py` is a Python script that is used to extract frames
 from videos provided in [1]. Please use this script to extract frames, so that
 the path configurations in JSON files are consistent.
 
